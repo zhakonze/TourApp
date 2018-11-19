@@ -19,6 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HangOut" android:label="@string/category_HangOuts" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Malls" android:label="@string/category_Malls" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Sights" android:label="@string/category_SightSeeing" android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

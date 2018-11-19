@@ -29,10 +29,10 @@ public class HangOutFragment extends Fragment
         View rootView = inflater.inflate(R.layout.hang_out_layout, container, false);
 
         final ArrayList<Des> description = new ArrayList<Des>();
-        description.add(new Des("Maboneng Precinct"," 276 Fox St, City and Suburban, Johannesburg, 2094", "Get lost in the city of Jozi filled will food, music and fun", "Open 8am - 10pm ", " Most VISITED", "+2786 133 3444 ", R.drawable.maboneng));
-        description.add(new Des("Kong Club Rosebank"," Rosebank, Johannesburg, 2196", "Come join some of SA's coolest kids at Kong", "Open 3pm - late ", "Most visited 4/5 ", " +2763 136 9468", R.drawable.kongclub));
-        description.add(new Des("THE SANDS","58, Wierda Rd E, Sandton, Johannesburg, 2196", "Come meet some of the youngest high rollers", "Open 3pm - late ", "Most visited 4/5 ", "011 783 1302 ", R.drawable.sands));
-        description.add(new Des("Montecasino","Montecasino Blvd, Fourways, Sandton, 2055", "Leisure complex designed like an Italian village, housing a casino, 2 theaters, cinemas and a mall ", "24 hours ", "Most VISITED ", " 011 510 7000", R.drawable.montecasino));
+        description.add(new Des(getString(R.string.mabo_name),getString(R.string.mabo_address), getString(R.string.mabo_description), getString(R.string.mabo_schedule), getString(R.string.mabo_price), getString(R.string.mabo_phone), R.drawable.maboneng));
+        description.add(new Des(getString(R.string.kon_name),getString(R.string.kon_address), getString(R.string.kon_description), getString(R.string.kon_schedule), getString(R.string.kon_price), getString(R.string.kon_phone), R.drawable.kongclub));
+        description.add(new Des(getString(R.string.san_name),getString(R.string.san_address), getString(R.string.san_description), getString(R.string.san_schedule), getString(R.string.san_price), getString(R.string.san_phone), R.drawable.sands));
+        description.add(new Des(getString(R.string.mon_name),getString(R.string.mon_address), getString(R.string.mon_description), getString(R.string.mon_schedule), getString(R.string.mon_price),getString(R.string.mon_phone), R.drawable.montecasino));
 
         DesAdapter adapter = new DesAdapter(getActivity(), description, R.color.category_numbers);
         ListView listView = (ListView) rootView.findViewById(R.id.list);

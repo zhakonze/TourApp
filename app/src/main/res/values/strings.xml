@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">RSA_TourApp</string>
-    <string name="tab_text_1">Hangouts</string>
-    <string name="tab_text_2">Malls</string>
-    <string name="tab_text_3">Sights</string>
+
+
+
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
@@ -15,6 +15,92 @@
 
     <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
     <string name="category_SightSeeing">Sight Seeing</string>
+
+    <!-- HangOuts -->
+    <string name="mabo_name">Maboneng Precinct</string>
+    <string name="mabo_address">276 Fox St, City and Suburban, Johannesburg, 2094</string>
+    <string name="mabo_description">Get lost in the city of Jozi filled will food, music and fun </string>
+    <string name="mabo_schedule">Open 8am - 10pm</string>
+    <string name="mabo_price">Most VISITED</string>
+    <string name="mabo_phone">+2786 133 3444</string>
+
+    <string name="kon_name">Kong Club Rosebank</string>
+    <string name="kon_address">Rosebank, Johannesburg, 2196</string>
+    <string name="kon_description">Come join some of SA\'s coolest kids at Kong</string>
+    <string name="kon_schedule">Open 3pm - late </string>
+    <string name="kon_price">Most visited 4/5</string>
+    <string name="kon_phone">+2763 136 9468</string>
+
+    <string name="san_name">THE SANDS</string>
+    <string name="san_address">58, Wierda Rd E, Sandton, Johannesburg, 2196</string>
+    <string name="san_description">Come meet some of the youngest high rollers</string>
+    <string name="san_schedule">Open 3pm - late</string>
+    <string name="san_price">Most visited 4/5 </string>
+    <string name="san_phone">011 783 1302</string>
+
+    <string name="mon_name">Montecasino </string>
+    <string name="mon_address">Montecasino Blvd, Fourways, Sandton, 2055</string>
+    <string name="mon_description">Leisure complex designed like an Italian village, housing a casino, 2 theaters, cinemas and a mall</string>
+    <string name="mon_schedule">24 hours</string>
+    <string name="mon_price">Most VISITED</string>
+    <string name="mon_phone">011 510 7000</string>
+
+
+    <string name="men_name">Menlyn Mall</string>
+    <string name="men_address">Atterbury Rd and Lois Ave, Menlyn Park, Pretoria, 0063</string>
+    <string name="men_description">Open 8am - 8pm</string>
+    <string name="men_schedule">5 Star</string>
+    <string name="men_price">55 shop</string>
+    <string name="men_phone">+2773 102 7145</string>
+
+    <string name="for_name">Forest Hill Mall</string>
+    <string name="for_address">Marie Rd, Monavoni, Centurion, 0157</string>
+    <string name="for_description">5 Star </string>
+    <string name="for_schedule">Open 8am - 8pm</string>
+    <string name="for_price">89 shops</string>
+    <string name="for_phone">+2773 102 7145</string>
+
+    <string name="sndc_name">Sandton City</string>
+    <string name="sndc_address">Unit U61a, Sandton City, 83 Rivonia Rd, Sandhurst, Sandton, 2196</string>
+    <string name="sndc_description">65 shop</string>
+    <string name="sndc_schedule">Open 8am - 8pm</string>
+    <string name="sndc_price">5 Star </string>
+    <string name="sndc_phone">+2773 102 7145</string>
+
+    <string name="moa_name">Mall of Africa</string>
+    <string name="moa_address">Lone Creek Cres and Magwa Crescent, Waterfall City, Gauteng</string>
+    <string name="moa_description">75 shop</string>
+    <string name="moa_schedule">Open 8am - 8pm</string>
+    <string name="moa_price">5 Star</string>
+    <string name="moa_phone">+2773 102 7145</string>
+
+    <string name="tm_name">Table Mountain</string>
+    <string name="tm_address">Cape Town</string>
+    <string name="tm_description">The highest point of Table Mountain is 3,563 feet above sea level</string>
+    <string name="tm_schedule">Most visited 5/5</string>
+    <string name="tm_price">5 Star</string>
+    <string name="tm_phone">+2773 102 7145</string>
+
+    <string name="knp_name">Kruger National Park</string>
+    <string name="knp_address">Limpopo</string>
+    <string name="knp_description">Kruger National Park is one of Africa’s largest game reserves</string>
+    <string name="knp_schedule">Most visited 4/5 </string>
+    <string name="knp_price">4.5 Star</string>
+    <string name="knp_phone">+2773 102 7145</string>
+
+    <string name="ch_name">The Cradle of Humankind</string>
+    <string name="ch_address">Johannesburg</string>
+    <string name="ch_description">The Cradle of Humankind is a paleoanthropological site about 50 km northwest of JHB </string>
+    <string name="ch_schedule">Most visited 3/5</string>
+    <string name="ch_price">3.5 Star</string>
+    <string name="ch_phone">+2773 102 7145</string>
+
+    <string name="ri_name">Robben Island</string>
+    <string name="ri_address">Cape Town</string>
+    <string name="ri_description">Robben Island is an island in Table Bay, 6.9 kilometres west of the coast of Bloubergstrand, Cape Town, South Africa </string>
+    <string name="ri_schedule">Most visit 4/5</string>
+    <string name="ri_price">4.5 Star</string>
+    <string name="ri_phone">+2773 102 7145</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

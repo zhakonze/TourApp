@@ -28,10 +28,10 @@ public class SightsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.hang_out_layout, container, false);
 
         final ArrayList<Des> description = new ArrayList<Des>();
-        description.add(new Des("Table Mountain","Cape Town", "The highest point of Table Mountain is 3,563 feet above sea level", "Most visited 5/5 ", " 5 Star", "+2773 102 7145 ", R.drawable.tablemountain));
-        description.add(new Des("Kruger National Park","Limpopo", "Kruger National Park is one of Africa’s largest game reserves", "Most visited 4/5 ", "4.5 Star ", "+2773 102 7145  ", R.drawable.krugernationalpark));
-        description.add(new Des("The Cradle of Humankind","Johannesburg", "The Cradle of Humankind is a paleoanthropological site about 50 km northwest of JHB ", "Most visited 3/5 ", "3.5 Star ", "+2773 102 7145 ", R.drawable.craddleofhumankind));
-        description.add(new Des("Robben Island","Cape Town", "Robben Island is an island in Table Bay, 6.9 kilometres west of the coast of Bloubergstrand, Cape Town, South Africa ", "Most visit 4/5 ", "4.5 Star ", " +2773 102 7145", R.drawable.robbenisland));
+        description.add(new Des(getString(R.string.tm_name),getString(R.string.tm_address), getString(R.string.tm_description), getString(R.string.tm_schedule), getString(R.string.tm_price), getString(R.string.tm_phone), R.drawable.tablemountain));
+        description.add(new Des(getString(R.string.moa_name),getString(R.string.knp_address), getString(R.string.knp_description), getString(R.string.knp_schedule), getString(R.string.knp_price), getString(R.string.knp_phone), R.drawable.krugernationalpark));
+        description.add(new Des(getString(R.string.ch_name),getString(R.string.ch_address), getString(R.string.ch_description), getString(R.string.ch_schedule), getString(R.string.ch_price), getString(R.string.ch_phone), R.drawable.craddleofhumankind));
+        description.add(new Des(getString(R.string.moa_name),getString(R.string.moa_address), getString(R.string.ri_description), getString(R.string.ri_schedule), getString(R.string.ri_price), getString(R.string.ri_phone), R.drawable.robbenisland));
 
         DesAdapter adapter = new DesAdapter(getActivity(), description, R.color.category_numbers);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
